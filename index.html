@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tamilarasan|Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="mouse-glow" id="mouseGlow"></div>
+
+  <div class="page-shell">
+    <header class="topbar glass-panel">
+      <a class="brand" href="#home">Tamils's Portfolio</a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="portfolio-card glass-panel">
+      <section class="hero-section section" id="home">
+        <div class="hero-backdrop">
+          <span class="orb orb-one"></span>
+          <span class="orb orb-two"></span>
+          <span class="grid-line grid-a"></span>
+          <span class="grid-line grid-b"></span>
+        </div>
+
+        <div class="hero-image-wrap">
+          <img
+            class="hero-image"
+            src="Asst/T2.jpeg"
+            alt="Profile portrait"
+          />
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">“Turning ideas into pixels & problems into solutions”</p>
+          <h2 style="color: rgb(255, 238, 0);">TAMILARASAN S</h2>
+          <p class="hero-about">
+            Designer by vision, Developer by skill, DevOps by mindset. I build complete digital solutions—focusing on aesthetics, functionality, and performance to deliver impactful results.
+          </p>
+
+          <div class="hero-pills">
+            <span>Creative Designing</span>
+            <span>AWS & Cloud</span>
+            <span>Web Development</span>
+            <span>DevOps</span>
+          </div>
+
+          <a class="hero-cta" href="#contact">Let’s Connect</a>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="section-kicker">my_Skill_stack = {}</p>
+          <h2>Skills That Keep Growing</h2>
+        </div>
+
+        <div class="skills-marquee glass-strip">
+          <div class="skills-track">
+            <article class="skill-bubble">
+              <span>WD</span>
+              <h3>Web Dev</h3>
+            </article>
+            <article class="skill-bubble">
+              <span>AWS</span>
+              <h3>AWS</h3>
+            </article>
+            <article class="skill-bubble">
+              <span>CL</span>
+              <h3>Cloud</h3>
+            </article>
+            <article class="skill-bubble">
+              <span>GD</span>
+              <h3>Graphic Designing</h3>
+            </article>
+            <article class="skill-bubble">
+              <span>VE</span>
+              <h3>Video Editing</h3>
+            </article>
+            <article class="skill-bubble">
+              <span>PY</span>
+              <h3>Python</h3>
+            </article>
+            <article class="skill-bubble learning-bubble">
+              <div class="mini-loader"></div>
+              <h3>Learning More</h3>
+            </article>
+          </div>
+          <div class="skills-track clone" aria-hidden="true">
+            <article class="skill-bubble">
+              <span>WD</span>
+              <h3>Web Dev</h3>
+            </article>
+            <article class="skill-bubble">
+              <span>AWS</span>
+              <h3>AWS</h3>
+            </article>
+            <article class="skill-bubble">
+              <span>CL</span>
+              <h3>Cloud</h3>
+            </article>
+            <article class="skill-bubble">
+              <span>GD</span>
+              <h3>Graphic Designing</h3>
+            </article>
+            <article class="skill-bubble">
+              <span>VE</span>
+              <h3>Video Editing</h3>
+            </article>
+            <article class="skill-bubble">
+              <span>PY</span>
+              <h3>Python</h3>
+            </article>
+            <article class="skill-bubble learning-bubble">
+              <div class="mini-loader"></div>
+              <h3>Learning More</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="certificates">
+        <div class="section-heading">
+          <p class="section-kicker">Achievements.log()</p>
+          <h2>Certificates & Learning Journey</h2>
+        </div>
+
+        <div class="certificate-row" id="certificateRow">
+          <button
+            class="certificate-card glass-panel"
+            type="button"
+            data-image="Asst/c3.jpg"
+            data-title="Web Development"
+            data-description="This certificate sharpened my HTML, CSS, responsive layout, and UI structure skills. I learned how to turn static ideas into clean and scalable interfaces."
+          >
+            <img src="Asst/c3.jpg" alt="Web Development certificate" />
+            <div class="certificate-copy">
+              <h3 style="color: rgb(255, 238, 0);">Web Development</h3>
+              <p>Responsive layouts and interface structure.</p>
+            </div>
+          </button>
+
+          <button
+            class="certificate-card glass-panel"
+            type="button"
+            data-image="Asst/c1.jpg"
+            data-title="AWS Technical Essentials"
+            data-description="This one gave me a stronger understanding of cloud concepts, AWS services, and how deployment thinking connects with real DevOps workflows."
+          >
+            <img src="Asst/c1.jpg" alt="AWS " />
+            <div class="certificate-copy">
+              <h3 style="color: rgb(255, 238, 0);">AWS Basics</h3>
+              <p>Cloud services, deployment flow, and infra thinking.</p>
+            </div>
+          </button>
+
+          <button
+            class="certificate-card glass-panel"
+            type="button"
+            data-image="Asst/c2.jpg"
+            data-title="Ai & ML"
+            data-description="I strengthened my AI & ML expertise through this certification, focusing on intelligent system design, data analysis, and model development—powering real-world, AI-driven solutions.."
+          >
+            <img src="Asst/c2.jpg" alt="Python Essentials certificate" />
+            <div class="certificate-copy">
+              <h3 style="color: rgb(255, 238, 0);">AI & ML</h3>
+              <p>Automation, scripting, and coding fundamentals.</p>
+            </div>
+          </button>
+          <button
+            class="certificate-card glass-panel learning-card"
+            type="button"
+            data-image="Asst/c4.jpg"
+            data-title="DevOps In Progress"
+            data-description="Still learning and building deeper knowledge around CI/CD, automation pipelines, and deployment practices. This card shows the journey is active and growing."
+          >
+            <img src="Asst/c4.jpg" alt="DevOps In Progress certificate" />
+            <div class="certificate-copy">
+              <h3 style="color: rgb(255, 238, 0);">Still Learning......</h3>
+              <p>CI/CD, automation, and deployment mastery in progress.</p>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading">
+          <p class="section-kicker">Initialize Contact():</p>
+          <h2>Contact & Social Presence</h2>
+        </div>
+
+        <div class="contact-grid">
+          <a class="contact-card glass-panel" href="mailto:star.dev.tamil@gmail.com">
+            <span class="contact-label">Gmail</span>
+            <strong>star.dev.tamil@gmail.com</strong>
+          </a>
+          <a class="contact-card glass-panel" href="https://www.linkedin.com/in/tamilarasan23" target="_blank" rel="noreferrer">
+            <span class="contact-label">LinkedIn</span>
+            <strong>linkedin.com/in/Tamilarasan-23</strong>
+          </a>
+          <a class="contact-card glass-panel" href="https://github.com/Tamilarasan-23" target="_blank" rel="noreferrer">
+            <span class="contact-label">GitHub</span>
+            <strong>github.com/Tamilarasan-23</strong>
+          </a>
+          <a class="contact-card glass-panel" href="https://www.instagram.com/raja_ofmy_rani/" target="_blank" rel="noreferrer">
+            <span class="contact-label">Instagram</span>
+            <strong>instagram profile</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+       
+      <footer class="section footer-section">
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p>&copy; StarDev 2026</p>
+      </footer>
+    </main>
+  </div>
+  </div>
+  <div class="modal" id="certificateModal" aria-hidden="true">
+    <div class="modal-overlay" data-close="true"></div>
+    <div class="modal-card glass-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Close certificate view">×</button>
+      <img id="modalImage" src="" alt="Certificate preview" />
+      <div class="modal-content">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
